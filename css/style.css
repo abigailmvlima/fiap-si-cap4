@@ -15,14 +15,31 @@ h1 {
     background-color: #282828;
 }
 
-a {
+.menuTopoItem {
     margin: 5px 10px;
     text-decoration: none;
-    color: #fff;    
+    color: #fff;  
+}
+
+.menuTopoItem:hover {
+    color:aquamarine ;
+}
+
+.menuTopoItemSelecionado {
+    color:red ;
+}
+
+.principalFoto {
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+
+a {
+      
 }
 
 a:hover{
-    color:aquamarine ;
 }
 
 .principal {
