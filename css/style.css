@@ -1,13 +1,18 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
+.pagina {
+    margin: 0 30px;
+}
 
 .menuTopo {
     display: flex;
@@ -30,16 +35,14 @@ h1 {
 }
 
 .principalFoto {
-    border-radius: 10px;
-    width: 250px;
-    height: 300px;
+    border-radius: 50px;
+    width: 150px;
+    height: 250px;
 }
 
-a {
-      
-}
-
-a:hover{
+.trajetoria {
+ display: flex;
+ justify-content:flex-end;  
 }
 
 .principal {
@@ -53,3 +56,21 @@ a:hover{
     flex-direction: column;
     margin-left: 20px;
 }
+
+.subMenu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.subMenu > a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.subMenu > a:hover {
+    color: aqua;
+}
+
+/*    */
+
