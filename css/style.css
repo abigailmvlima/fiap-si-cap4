@@ -7,16 +7,33 @@ body {
     background-color: rgba(4, 18, 112, 0.228);
 }
 
+div {
+    display: flex;
+
+}
+
 h1 {
     font-size: 30px;
 }
 
 p {
     font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+a {
+    text-decoration: none;
 }
 
 .pagina {
+    flex-direction: column;
     margin: 0 30px;
+    padding-top: 30px;
+}
+
+.principal {
+    padding: 30px 30px;
+    background-image: linear-gradient(to bottom right, rgba(91, 74, 187, 0.153), rgba(30, 17, 103, 5));
 }
 
 .menuTopo {
@@ -41,13 +58,14 @@ p {
 
 .principalFoto {
     border-radius: 20px;
-    width: 150px;
+    width: 200px;
     height: 250px;
 }
 
 .trajetoria {
  display: flex;
  justify-content:flex-end;  
+ margin-top: 30px;
 }
 
 .principal {
@@ -56,7 +74,7 @@ p {
     margin: 20px 20px;
 }
 
-.principal-titulo {
+.principal-resumo {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
@@ -69,8 +87,12 @@ p {
     font-size: 25px;
 }
 
+.subMenu > :nth-child(1) {
+    margin: 0 30px 30px 30px;
+    border-bottom: 1px solid #000;
+}
+
 .subMenu > a {
-    text-decoration: none;
     font-size: 30px;
     color: rgb(111, 2, 62);
 
@@ -84,6 +106,15 @@ p {
 dt {
     color: rgb(162, 0, 89);
     font-style: oblique;
+}
+
+.subMenu-box {
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    width: 33%;
+    margin: 30px 30px 30px 30px;
 }
 
 /*    */
