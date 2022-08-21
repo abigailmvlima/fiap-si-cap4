@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Calibri", "Open Sans", sans-serif;
     background-color: #fff;
 }
 
@@ -13,17 +13,26 @@ div {
 }
 
 h1 {
-    font-size: 30px;
-    color: rgb(162, 0, 89);
+    font-size: 40px;
+    color: rgb(101, 2, 56);
+
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(101, 2, 56);
 }
 
+h3 {
+    font-size: 25px;
+    color: rgb(101, 2, 56);
+
+}
+
 p {
+    color: rgb(79, 79, 79);
     font-size: 20px;
+    font-weight: 100;
     margin: 10px 0 0 0;
 }
 
@@ -33,15 +42,15 @@ a {
 
 .pagina {
     flex-direction: column;
-    margin: 0 30px;
+    margin: 30px 10%;
     padding-top: 30px;
 }
 
 .principal {
     padding: 30px 30px;
     border-radius: 20px;
-    background: rgb(246,63,251);
-    background: radial-gradient(circle, rgba(246,63,251,0.12088585434173671) 0%, rgba(155,70,252,0.06486344537815125) 100%);
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
+    background: linear-gradient(90deg, rgb(254, 247, 251) 50%, rgb(252, 204, 233) 100%);
 }
 
 .menuTopo {
@@ -63,6 +72,7 @@ a {
 
 .principalFoto {
     border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
     width: 200px;
     height: 250px;
 }
@@ -73,8 +83,14 @@ a {
 }
 
 .principal-resumo {
+    justify-content: space-between;
+    width: 100%;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 40px;
+}
+
+.principal-resumo > div {
+    flex-direction: column;
 }
 
 .trajetoria {
@@ -85,13 +101,11 @@ a {
 
 .subMenu {
     flex-direction: column;
-    padding: 20px 0;
     font-size: 25px;
 }
 
 .subMenu > :nth-child(1) {
-    margin: 0 30px 30px 30px;
-    border-bottom: 1px solid #000;
+    margin: 0 30px;
 }
 
 .subMenu > a {
@@ -106,10 +120,20 @@ a {
 .subMenu-box {
     justify-content: center;
     align-items: center;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 1px solid rgba(167, 73, 125, 0.776);
+    border-bottom: 1px solid rgba(167, 73, 125, 0.776);
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(210, 182, 197);
     width: 33%;
     margin: 30px 30px 30px 30px;
+    color: rgb(79, 79, 79);
+
+}
+
+.subMenu-box dd {
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    font-weight: 100;
 }
 
 dt {
@@ -119,6 +143,15 @@ dt {
 
 footer {
     text-align: center;
+    padding: 20px 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(202, 199, 199);
+    color: rgb(123, 120, 120);
+}
+
+.voltarInicio {
+    justify-content: flex-end;
 }
 
 .menuEmpresa {
@@ -130,7 +163,7 @@ footer {
     justify-content: space-around;
 }
 
-.tecnologias {
+.conhecimentos {
     flex-direction: column;
     margin: 0 30px;
 }
