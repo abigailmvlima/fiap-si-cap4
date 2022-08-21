@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <title>Portifólio</title>
 </head>
 
 <body>
     <div class="menuTopo">
-        <a class="menuTopoItem menuTopoItemSelecionado" href="/index.html">Home</a>
-        <a class="menuTopoItem" href="">Cursos</a>
-        <a class="menuTopoItem" href="">Experiências</a>
+        <a class="menuTopoItem" href="/index.html">Home</a>
+        <a class="menuTopoItem" href="#cursos">Cursos</a>
+        <a class="menuTopoItem" href="#conhecimentos">Conhecimentos</a>
+        <a class="menuTopoItem" href="#referencias">Referências</a>
     </div>
     <div class="pagina">
         <div class="principal">
@@ -29,14 +30,14 @@
                     <p>Hoje a minha meta é voltar ao mercado de trabalho na area de
                         Tecnologia que cresce a cada ano.</p>
                     <div class="trajetoria">
-                        <a href="./trajetoria.html">Ler mais Trajetória</a>
+                        <a href="./trajetoria.html">Ler mais</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="subMenu">
             <div>
-                <h1>Conhecimentos</h1>
+                <h1 id="cursos">Cursos</h1>
             </div>
             <div>
                 <div class="subMenu-box">
@@ -79,8 +80,28 @@
                 </div>
             </div>
         </div>
-        <a href="curiosidades.html">Curiosidades</a>
+        <div class="tecnologias">
+            <h1 id="conhecimentos">Conhecimentos</h1>
+            <div class="logos">
+                <div><img width="120px" height="120px" src="/imagens/logoHTML.png" alt="logoHTML"></div>
+                <div><img width="120px" height="120px" src="imagens/logoCSS.png" alt="logoCSS"></div>
+                <div><img width="110px" height="110px" src="imagens/logoJS.png" alt="logoJS"></div>
+                <div><img width="145px" height="100px" src="imagens/logoNODE.png" alt="logoNODE"></div>
+                <div><img width="120px" height="120px" src="imagens/logoPyton.png" alt="logoPyton"></div>
+                <div><img width="130px" height="130px" src="imagens/logoPHP.png" alt="logoPHP"></div>
+            </div>
+            <h2 id="referencias">Referências</h2>
+            <div>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML</a></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
+    <footer>
+        Todos os direitos reservados
+    </footer>
 </body>
 
 </html>
