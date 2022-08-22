@@ -33,7 +33,8 @@ p {
     color: rgb(79, 79, 79);
     font-size: 20px;
     font-weight: 100;
-    margin: 10px 0 0 0;
+    margin: 5px 0 0 0;
+    text-align: justify;
 }
 
 a {
@@ -179,5 +180,25 @@ footer {
     height: 60px;
     margin-bottom: 30px;
 }
-/*    */
+/* trajetoria  */
 
+.principalFoto1 {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
+    width: 180px;
+    height: 230px;
+}
+
+.fotoFamilia {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
+    width: 340px;
+    height: 190;
+}
+
+.fotoCasal {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
+    width: 340px;
+    height: 190px;
+}
