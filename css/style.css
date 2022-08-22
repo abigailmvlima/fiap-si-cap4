@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,500&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: "Calibri", "Open Sans", sans-serif;
     background-color: #fff;
 }
 
@@ -14,44 +15,35 @@ div {
 
 h1 {
     font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
     color: rgb(101, 2, 56);
 
 }
 
 h2 {
     font-size: 30px;
-    color: rgb(101, 2, 56);
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(60, 0, 33);
 }
 
 h3 {
     font-size: 25px;
+    font-family: 'Cormorant Garamond', serif;
     color: rgb(101, 2, 56);
 
 }
 
 p {
-    color: rgb(79, 79, 79);
-    font-size: 20px;
+    color: rgb(4, 4, 4);
+    font-size: 30px;
     font-weight: 100;
+    font-family: 'Cormorant Garamond', serif;
     margin: 5px 0 0 0;
     text-align: justify;
 }
 
 a {
     text-decoration: none;
-}
-
-.pagina {
-    flex-direction: column;
-    margin: 30px 10%;
-    padding-top: 30px;
-}
-
-.principal {
-    padding: 30px 30px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 9px rgb(210, 182, 197);
-    background: linear-gradient(90deg, rgb(254, 247, 251) 50%, rgb(252, 204, 233) 100%);
 }
 
 .menuTopo {
@@ -71,16 +63,27 @@ a {
     color:rgb(218, 155, 193);
 }
 
+.pagina {
+    flex-direction: column;
+    margin: 30px 10%;
+    padding-top: 30px;
+}
+
+.principal {
+    padding: 30px 30px;
+    border-radius: 20px;
+    flex-direction:row;
+    margin: 20px 20px;
+    box-shadow: 1px 1px 9px rgb(215, 193, 205);
+    background: linear-gradient(90deg, rgb(246, 246, 246) 50%, rgb(250, 243, 247) 100%);
+}
+
+
 .principalFoto {
     border-radius: 20px;
     box-shadow: 1px 1px 9px rgb(210, 182, 197);
     width: 200px;
     height: 250px;
-}
-
-.principal {
-    flex-direction:row;
-    margin: 20px 20px;
 }
 
 .principal-resumo {
@@ -121,20 +124,15 @@ a {
 .subMenu-box {
     justify-content: center;
     align-items: center;
-    border-right: 1px solid rgba(167, 73, 125, 0.776);
-    border-bottom: 1px solid rgba(167, 73, 125, 0.776);
+    border-right: 1px solid rgba(159, 128, 145, 0.869);
+    border-bottom: 1px solid rgba(159, 128, 145, 0.869);
     border-bottom-right-radius: 10px;
     box-shadow: 10px 10px 10px rgb(210, 182, 197);
     width: 33%;
     margin: 30px 30px 30px 30px;
-    color: rgb(79, 79, 79);
-
-}
-
-.subMenu-box dd {
-    color: rgb(79, 79, 79);
-    font-size: 20px;
-    font-weight: 100;
+    color: rgb(4, 4, 4);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
 }
 
 dt {
@@ -142,26 +140,10 @@ dt {
     font-style: oblique;
 }
 
-footer {
-    text-align: center;
-    padding: 20px 20px;
-    font-size: 18px;
-    margin-top: 50px;
-    border-top: 1px solid rgb(202, 199, 199);
-    color: rgb(123, 120, 120);
-}
-
-.voltarInicio {
-    justify-content: flex-end;
-}
-
-.menuEmpresa {
-    flex-direction: column;
-    margin: 30px 30px;
-}
-
-.menuEmpresa-dados {
-    justify-content: space-around;
+dd {
+    color: rgb(4, 4, 4);
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .conhecimentos {
@@ -175,11 +157,27 @@ footer {
     align-items: center;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 30px;
+.ref {
+    font-size: 18px;
 }
+
+.ref:hover {
+    color:  rgba(167, 73, 125, 0.776);
+}
+
+.voltarInicio {
+    justify-content: flex-end;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-top: 1px solid rgb(202, 199, 199);
+    color: rgb(4, 4, 4);
+}
+
 /* trajetoria  */
 
 .principalFoto1 {
@@ -192,8 +190,8 @@ footer {
 .fotoFamilia {
     border-radius: 20px;
     box-shadow: 1px 1px 9px rgb(210, 182, 197);
-    width: 340px;
-    height: 190;
+    width: 360px;
+    height: 210px;
 }
 
 .fotoCasal {
@@ -201,4 +199,11 @@ footer {
     box-shadow: 1px 1px 9px rgb(210, 182, 197);
     width: 340px;
     height: 190px;
+}
+
+.fotoEstudando {
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px rgb(210, 182, 197);
+    width: 300px;
+    height: 220px;
 }
